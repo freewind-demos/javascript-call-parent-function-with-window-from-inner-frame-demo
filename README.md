@@ -1,6 +1,9 @@
-Js Hello World Demo
-===================
+JavaScript Call Parent Function with "window" from Inner Frame Demo
+===================================================================
 
-Open `index.html` in your browser.
+从内部iframe中调用parent的function，如果里面用到了`window`对象，不管怎么做，它引用的都是外部的window.
 
-You will see "Hello, JS!" on the page.
+```
+npm install
+npm run demo
+```
